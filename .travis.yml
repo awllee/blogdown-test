@@ -6,6 +6,7 @@ branches:
         - master
 r_github_packages:
     - rstudio/blogdown
+    - yihui/xaringan
 
 before_script:
     - Rscript -e 'blogdown::install_hugo()'
