@@ -26,6 +26,7 @@
 
 {{ end }}
 
+{{ if eq .Kind "page" }}
 <script src="https://utteranc.es/client.js"
         repo="awllee/blogdown-test"
         issue-term="pathname"
@@ -34,3 +35,4 @@
         crossorigin="anonymous"
         async>
 </script>
+{{ end }}
