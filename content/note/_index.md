@@ -6,4 +6,4 @@ Notes are notes.
 
 * [Note A](note-a)
 * [Note B](note-b)
-* [Rmarkdown Test](Rmarkdown-test)
+* [Rmarkdown Test](rmarkdown-test)
