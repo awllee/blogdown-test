@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://awllee.github.io/blogdown-test/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 
