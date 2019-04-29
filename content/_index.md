@@ -6,4 +6,4 @@ title: Home
 
 This is just a template to test out usage of [blogdown](https://bookdown.org/yihui/blogdown) with various features that I think are useful.
 
-Check out [posts](/post/), [notes](/note/) or [slides](/slides/).
+Check out [posts](post/), [notes](note/) or [slides](slides/).

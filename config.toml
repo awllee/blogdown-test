@@ -16,7 +16,7 @@ footnotereturnlinkcontents = "↩"
     weight = 4
 [[menu.main]]
     name = "Notes"
-    url = "/note"
+    url = "/note/"
     weight = 2
 [[menu.main]]
     name = "Slides"
