@@ -2,8 +2,6 @@
 title: Rmarkdown test page
 ---
 
-# What's going on here?
-
 Some math
 
 $$\pi(\varphi) = \int \varphi(x) \pi({\rm d}x).$$
