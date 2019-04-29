@@ -1,0 +1,27 @@
+<!-- {{ if .Section }}
+<nav class="post-nav">
+  <span class="nav-prev">{{ with .PrevInSection }}&larr; <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</span>
+  <span class="nav-next">{{ with .NextInSection }}<a href="{{ .RelPermalink }}">{{ .Title }}</a> &rarr;{{ end }}</span>
+</nav>
+{{ end }} -->
+
+<script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+{{ if .File.Path }}
+
+{{ $Rmd := (print .File.BaseFileName ".Rmd") }}
+
+{{ if (where (readDir (print "content/" .File.Dir)) "Name" $Rmd) }}
+  {{ $.Scratch.Set "FilePath" (print .File.Dir $Rmd) }}
+{{ else }}
+  {{ $.Scratch.Set "FilePath" .File.Path }}
+{{ end }}
+
+{{ with .Site.Params.GithubEdit}}
+<p align=right><a href='{{ . }}{{ $.Scratch.Get "FilePath" }}'>Edit this page</a></p>
+{{ end }}
+
+{{ end }}
