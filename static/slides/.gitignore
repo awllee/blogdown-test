@@ -1,5 +1,3 @@
 libs
 *.html
 *_files
-
-!index.html
