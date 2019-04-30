@@ -58,12 +58,12 @@ y &= 4
 
 ---
 
-# RMarkdown
+# RMarkdown: code and plots
 
-You can also include `R` code and plots
-
-```{r, fig.align='center', fig.width=8, fig.height=4}
+```{r, warning=FALSE}
 library(ggplot2)
+```
+```{r, fig.align='center', fig.width=8, fig.height=4}
 xs <- seq(0, 2*pi, 0.01); ys <- sin(xs); zs <- cos(xs)
 ggplot() + geom_point(aes(x=xs,y=ys,col='sin')) +
   geom_point(aes(x=xs,y=zs,col='cos')) +
