@@ -1,3 +1,4 @@
-# libs
-# *.html
+libs
+*.html
 
+!index.html
