@@ -19,7 +19,7 @@ script:
     - Rscript -e 'blogdown::build_site()'
 
 before_deploy:
-    - rm static/slides/.gitignore
+    - rm public/slides/.gitignore
 
 deploy:
     provider: pages
