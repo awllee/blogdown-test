@@ -2,4 +2,4 @@
 title: Posts
 ---
 
-Posts are posts
+Posts are posts.

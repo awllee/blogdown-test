@@ -1,5 +1,6 @@
 ---
 title: Rmarkdown test page
+weight: 4
 ---
 
 Some math

@@ -2,7 +2,7 @@
 title: Slides
 ---
 
-Here are the slides
+Slides are slides.
 
 * [Xaringan](xaringan.html)
 * [Writing slides](writing-slides.html)

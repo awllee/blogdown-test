@@ -1,6 +1,7 @@
 ---
 title: A Plain Markdown Post
 author: Yihui Xie
+weight: 2
 ---
 
 This sample post is mainly for [**blogdown**](https://github.com/rstudio/blogdown) users. If you do not use **blogdown**, you can skip the first section.

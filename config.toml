@@ -1,6 +1,6 @@
 baseURL = "https://awllee.github.io/blogdown-test/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "BT"
 
 theme = "hugo-ivy"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
@@ -28,7 +28,7 @@ footnotereturnlinkcontents = "↩"
     weight = 3
 
 [params]
-    description = "A template site."
+    description = "Blogdown Test"
     footer = "&copy; [Anthony Lee](https://sites.google.com/view/anthonylee) 2019 | [Github](https://github.com/awllee)"
     highlightjsVersion = "9.12.0"
     highlightjsCDN = "//cdn.bootcss.com"
