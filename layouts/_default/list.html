@@ -2,13 +2,13 @@
 
 {{ .Content }}
 
-{{ if .Section }}
+{{ if not .IsHome }}
 <ul>
-  {{ range (where .Data.Pages "Section" "!=" "") }}
-  <li>
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </li>
-  {{ end }}
+    {{ range (where (union .Pages .Sections) "Section" .Section).ByWeight }}
+        <li>
+            <a href="{{.RelPermalink}}"> {{.Title}}</a>
+        </li>
+    {{ end }}
 </ul>
 {{ end }}
 
