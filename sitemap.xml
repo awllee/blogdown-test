@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://awllee.github.io/blogdown-test/post/lorem-ipsum/</loc>
+  </url>
+  
+  <url>
+    <loc>https://awllee.github.io/blogdown-test/note/note-a/</loc>
+  </url>
+  
+  <url>
+    <loc>https://awllee.github.io/blogdown-test/post/hello-markdown/</loc>
+  </url>
+  
+  <url>
+    <loc>https://awllee.github.io/blogdown-test/note/complicated-note/</loc>
+  </url>
+  
+  <url>
+    <loc>https://awllee.github.io/blogdown-test/note/note-b/</loc>
+  </url>
+  
+  <url>
+    <loc>https://awllee.github.io/blogdown-test/note/resourced-note/</loc>
+  </url>
+  
+  <url>
+    <loc>https://awllee.github.io/blogdown-test/note/rmarkdown-test/</loc>
+  </url>
+  
+  <url>
+    <loc>https://awllee.github.io/blogdown-test/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://awllee.github.io/blogdown-test/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://awllee.github.io/blogdown-test/</loc>
+  </url>
+  
+  <url>
+    <loc>https://awllee.github.io/blogdown-test/note/</loc>
+  </url>
+  
+  <url>
+    <loc>https://awllee.github.io/blogdown-test/note/complicated-note/part1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://awllee.github.io/blogdown-test/note/complicated-note/part2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://awllee.github.io/blogdown-test/post/</loc>
+  </url>
+  
+  <url>
+    <loc>https://awllee.github.io/blogdown-test/slides/</loc>
+  </url>
+  
+  <url>
+    <loc>https://awllee.github.io/blogdown-test/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Complicated note on BT</title>
+    <link>https://awllee.github.io/blogdown-test/note/complicated-note/</link>
+    <description>Recent content in Complicated note on BT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://awllee.github.io/blogdown-test/note/complicated-note/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Part 1</title>
+      <link>https://awllee.github.io/blogdown-test/note/complicated-note/part1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://awllee.github.io/blogdown-test/note/complicated-note/part1/</guid>
+      <description>This is part 1.
+Let&amp;rsquo;s try some math. As the source is a Markdown and not an RMarkdown file, one has to use special syntax to enable math rendering. Specifically, one can use
+ \\( &amp;lt;LaTeX&amp;gt; \\) and \\[ &amp;lt;LaTeX&amp;gt; \\], `$&amp;lt;LaTeX&amp;gt;$` and `$$&amp;lt;LaTeX&amp;gt;$$`,  for inline and display mode, respectively. In the former, one can use \newline or \\\\\ instead of \\ to break lines.
+Let \(x = 1\) and</description>
+    </item>
+    
+    <item>
+      <title>Part 2</title>
+      <link>https://awllee.github.io/blogdown-test/note/complicated-note/part2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://awllee.github.io/blogdown-test/note/complicated-note/part2/</guid>
+      <description>This is part 2.</description>
+    </item>
+    
+  </channel>
+</rss>
