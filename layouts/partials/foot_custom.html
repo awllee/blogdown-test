@@ -21,9 +21,15 @@
   {{ $.Scratch.Set "FilePath" .File.Path }}
 {{ end }}
 
-{{ with .Site.Params.GithubEdit}}
-<p align=right><a href='{{ . }}{{ $.Scratch.Get "FilePath" }}'>Edit this page</a></p>
+<p align=right>
+{{ with .Site.Params.GithubView}}
+<a href='{{ . }}{{ $.Scratch.Get "FilePath" }}'>View source</a>
 {{ end }}
+|
+{{ with .Site.Params.GithubEdit}}
+<a href='{{ . }}{{ $.Scratch.Get "FilePath" }}'>Edit source</a>
+{{ end }}
+</p>
 
 {{ end }}
 {{ end }}

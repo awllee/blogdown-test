@@ -35,3 +35,4 @@ footnotereturnlinkcontents = "↩"
     highlightjsLang = ["r", "yaml", "tex"]
     highlightjsTheme = "github"
     GithubEdit = "https://github.com/awllee/blogdown-test/edit/master/content/"
+    GithubView = "https://github.com/awllee/blogdown-test/blob/master/content/"
