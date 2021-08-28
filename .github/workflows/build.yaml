@@ -36,6 +36,8 @@ jobs:
 
       - name: Build site
         run: |
+          git submodule init
+          git submodule update
           R -e 'blogdown::build_site(build_rmd = TRUE)'
           rm public/.gitignore
           rm public/slides/.gitignore
