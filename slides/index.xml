@@ -1,14 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slides on BT</title>
     <link>https://awllee.github.io/blogdown-test/slides/</link>
     <description>Recent content in Slides on BT</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://awllee.github.io/blogdown-test/slides/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://awllee.github.io/blogdown-test/slides/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
